@@ -126,6 +126,8 @@ __BEGIN_DECLS
 /* Query supported sampling rates. The response is a '|' separated list of integer values e.g:
  * "sup_sampling_rates=44100|48000" */
 #define AUDIO_PARAMETER_STREAM_SUP_SAMPLING_RATES "sup_sampling_rates"
+/* Query Sound Card Status */
+#define AUDIO_PARAMETER_KEY_SND_CARD_STATUS "SND_CARD_STATUS"
 
 /**
  * audio codec parameters
